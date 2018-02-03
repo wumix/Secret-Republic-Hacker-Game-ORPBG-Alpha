@@ -1,4 +1,4 @@
-# SecretAlpha - So long, and thanks for all the fish
+# SecretAlpha 
 
 See screenshots at the bottom.
 
@@ -16,19 +16,33 @@ Read more about the history of the game and the more complete older version in t
 
 # Setting up
 
-You can go with a light LAMP setup. Install MAMP for windows, WAMP for Mac. You'll need https://getcomposer.org/ to install the packages used.
+You can go with a light LAMP setup. Install MAMP (https://www.mamp.info/en/) for windows, WAMP (http://www.wampserver.com/en/) for Mac.
 
 Import db.sql into a fresh MySQL db.
 
-Copy fuel/app/config/db.template into fuel/app/config/config.php
+Copy fuel/app/config/db.template into fuel/app/config/config.php and configure it if you want.
 
-Copy fuel/app/config/config.template into fuel/app/config/db.php and configure it.
+Copy fuel/app/config/config.template into fuel/app/config/db.php and add your DB details.
 
-Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want.
+Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want to setup email sending.
 
-Run 'composer install' and 'composer update'
+Run 'composer install' and 'composer update' (more info about composer: https://getcomposer.org/)
 
-Create an account and set your group to 2 in the database in order to become a Cardinal (admin).
+Create an account through the signup form and set your group to 2 in the database in order to become a Cardinal (admin).
+
+# Cron jobs
+
+You may want to setup tasks to run the following code once in a while
+
+your-url/cron/rankings
+
+your-url/cron/emails
+
+e.g.
+
+*/2 * * * * wget -O - http://localhost/cron/emails >/dev/null 2>&1
+
+https://en.wikipedia.org/wiki/Cron
 
 # License
 
