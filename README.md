@@ -57,14 +57,18 @@ Released under public common MIT license. Please credit and contribute back!
 ## Skills
 ![Screenshot](images/3.png)
 
+## Knowledge base
 ![Screenshot](images/4.png)
 
+## Missions (there are email, database and file based servers which can be used to design different puzzles)
 ![Screenshot](images/5.png)
 
 ![Screenshot](images/6.png)
 
+## Simple rankings
 ![Screenshot](images/7.png)
 
+## Mission designer
 ![Screenshot](images/8.png)
 
 ![Screenshot](images/9.png)
