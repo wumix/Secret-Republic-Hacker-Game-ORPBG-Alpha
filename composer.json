@@ -1,0 +1,34 @@
+{
+    "name": "nenuadrian/secretrepublic",
+    "type": "project",
+    "description" : "Hacker Simulation Futuristic Browser Based Role Playing Game",
+    "keywords": ["browser", "game" , "hacking", "application", "website", "development", "framework", "PHP", "PHP7"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0",
+        "fuel/core": "1.8.*",
+        "fuel/email": "1.8.*",
+        "fuel/parser": "1.8.*",
+        "fuelphp/upload": "2.0.6",
+        "monolog/monolog": "1.5.*",
+        "phpseclib/phpseclib": "2.0.0",
+        "michelf/php-markdown": "1.4.0",
+        "thunderer/shortcode": "*",
+        "mobiledetect/mobiledetectlib": "*",
+        "thunderer/shortcode": "*"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "vendor-dir": "fuel/vendor"
+    },
+    "extra": {
+        "installer-paths": {
+            "fuel/{$name}": ["fuel/core"]
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "stable"
+}
