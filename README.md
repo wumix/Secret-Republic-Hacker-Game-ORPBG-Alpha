@@ -16,17 +16,19 @@ Read more about the history of the game and the more complete older version in t
 
 # Setting up
 
-Configure an MySQL DB and import db.sql
+You can go with a light LAMP setup. Install MAMP for windows, WAMP for Mac. You'll need https://getcomposer.org/ to install the packages used.
 
-Copy fuel/app/config/db.template into fuel/app/config/db.php
+Import db.sql into a fresh MySQL db.
+
+Copy fuel/app/config/db.template into fuel/app/config/config.php
 
 Copy fuel/app/config/config.template into fuel/app/config/db.php and configure it.
 
-Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it.
+Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want.
 
-Run 'composer install'
+Run 'composer install' and 'composer update'
 
-Create an account and set your group to 2 in order to become a Cardinal (admin).
+Create an account and set your group to 2 in the database in order to become a Cardinal (admin).
 
 # License
 
