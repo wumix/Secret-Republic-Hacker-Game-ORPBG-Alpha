@@ -97,3 +97,5 @@ https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futu
 # License
 
 This initial version was created by [Adrian Nenu] (https://github.com/nenuadrian) under [CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
+
+Please link and contribute back to this repository if using the code or assets :)
