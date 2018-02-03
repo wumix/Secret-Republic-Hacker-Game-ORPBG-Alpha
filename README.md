@@ -93,3 +93,7 @@ Released under public common MIT license. Please credit and contribute back!
 # Read about the journey
 
 https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futuristic-rpg-browser-based-game-php-843d393cb9d7
+
+# License
+
+This initial version was created by [Adrian Nenu] (https://github.com/nenuadrian) under [CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
