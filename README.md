@@ -73,11 +73,12 @@ Released under public common MIT license. Please credit and contribute back!
 
 ![Screenshot](images/9.png)
 
+## Rewards
 ![Screenshot](images/10.png)
 
+## Edit account
 ![Screenshot](images/11.png)
 
-![Screenshot](images/12.png)
 
 # Travelling through time
 
@@ -88,3 +89,7 @@ Released under public common MIT license. Please credit and contribute back!
 ![Screenshot](images/original1.png)
 
 ![Screenshot](images/original2.png)
+
+# Read about the journey
+
+https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futuristic-rpg-browser-based-game-php-843d393cb9d7
