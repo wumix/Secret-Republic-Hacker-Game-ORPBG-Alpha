@@ -1,4 +1,10 @@
-# SecretAlpha V4
+# Secret Republic- Alpha V4
+
+<p align="center">
+
+![Cover](images/cover.jpg)
+
+</p>
 
 See screenshots at the bottom.
 
