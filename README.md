@@ -22,6 +22,8 @@ Copy fuel/app/config/db.template into fuel/app/config/db.php
 
 Copy fuel/app/config/config.template into fuel/app/config/db.php and configure it.
 
+Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it.
+
 Run 'composer install'
 
 Create an account and set your group to 2 in order to become a Cardinal (admin).
