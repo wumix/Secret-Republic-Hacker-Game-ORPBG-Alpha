@@ -88,8 +88,8 @@ class Missions extends \Model {
             });
             static::$shortcode = new \Thunder\Shortcode\Processor\Processor(new \Thunder\Shortcode\Parser\RegularParser(), $handlers);
         }
-        $bbcode = new \Golonka\BBCode\BBCodeParser;
-        return $bbcode->parseCaseInsensitive(static::$shortcode->process($text));
+
+        return \Model\BBCode::parse(static::$shortcode->process($text));
     }
 
     public static function shortcode() {

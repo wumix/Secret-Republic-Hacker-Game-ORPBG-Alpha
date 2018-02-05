@@ -28,10 +28,8 @@ class Controller_Conversations extends Controller {
 		}
 		$replies = DB::select()->from('conversation')->where('parent_conversation_id', $conv['conversation_id'])->or_where('conversation_id', $conv['conversation_id'])->order_by('created_at', 'desc')->execute()->as_array();
 
-		$bbcode = new Golonka\BBCode\BBCodeParser;
-
 		foreach ($replies as &$r) {
-			$r['message'] = $bbcode->parseCaseInsensitive(htmlentities(htmlentities($r['message'])));
+			$r['message'] = \Model\BBCode::parse($r['message']);
 		}
 
 		$tVars = array();
