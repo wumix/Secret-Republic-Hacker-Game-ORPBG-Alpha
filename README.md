@@ -32,17 +32,17 @@ You need a webserver able to run PHP and an MySQL database (LAMP).
 
 1. Install MAMP (https://www.mamp.info/en/) for windows or WAMP (http://www.wampserver.com/en/) for Mac to get them out of the box.
 
-Import db.sql into a fresh MySQL db.
+2. Import db.sql into a fresh MySQL db.
 
-2. Copy fuel/app/config/config.template into fuel/app/config/db.php and add your DB details.
+3. Copy fuel/app/config/config.template into fuel/app/config/db.php and add your DB details.
 
-Copy fuel/app/config/db.template into fuel/app/config/config.php and configure it if you want.
+4. Copy fuel/app/config/db.template into fuel/app/config/config.php and configure it if you want.
 
-Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want to setup email sending.
+5. Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want to setup email sending.
 
-3. Run 'composer install' and 'composer update' (more optional info about composer: https://getcomposer.org/)
+6. Run 'composer install' and 'composer update' (more optional info about composer: https://getcomposer.org/)
 
-4. Create an account through the signup form and set your group to 2 in the database in order to become a Cardinal (admin).
+7. Create an account through the signup form and set your group to 2 in the database in order to become a Cardinal (admin).
 
 # Cron jobs
 
