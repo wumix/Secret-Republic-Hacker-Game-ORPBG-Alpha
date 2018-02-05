@@ -30,19 +30,19 @@ https://github.com/nenuadrian/Secret-Republic-Hacking-Browser-Game-V3
 
 You need a webserver able to run PHP and an MySQL database (LAMP). 
 
-Install MAMP (https://www.mamp.info/en/) for windows or WAMP (http://www.wampserver.com/en/) for Mac to get them out of the box.
+1. Install MAMP (https://www.mamp.info/en/) for windows or WAMP (http://www.wampserver.com/en/) for Mac to get them out of the box.
 
 Import db.sql into a fresh MySQL db.
 
-Copy fuel/app/config/config.template into fuel/app/config/db.php and add your DB details.
+2. Copy fuel/app/config/config.template into fuel/app/config/db.php and add your DB details.
 
 Copy fuel/app/config/db.template into fuel/app/config/config.php and configure it if you want.
 
 Copy fuel/app/config/email.template into fuel/app/config/email.php and configure it if you want to setup email sending.
 
-Run 'composer install' and 'composer update' (more optional info about composer: https://getcomposer.org/)
+3. Run 'composer install' and 'composer update' (more optional info about composer: https://getcomposer.org/)
 
-Create an account through the signup form and set your group to 2 in the database in order to become a Cardinal (admin).
+4. Create an account through the signup form and set your group to 2 in the database in order to become a Cardinal (admin).
 
 # Cron jobs
 
