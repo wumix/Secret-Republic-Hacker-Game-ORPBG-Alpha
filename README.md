@@ -90,11 +90,7 @@ https://en.wikipedia.org/wiki/Cron
 ![Screenshot](images/11.png)
 
 
-# Travelling through time
-
-![Screenshot](images/v21.png)
-
-![Screenshot](images/v22.png)
+# Travelling through time - V1
 
 ![Screenshot](images/original1.png)
 
