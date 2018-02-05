@@ -1,4 +1,4 @@
-# Secret Republic- Alpha V4
+# Secret Republic - Alpha V4
 
 <p align="center">
 
