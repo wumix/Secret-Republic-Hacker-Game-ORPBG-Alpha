@@ -1,16 +1,11 @@
 # Secret Republic - Alpha V4
 
-<p align="center">
 
 ![Cover](images/cover.jpg)
 
-</p>
+See screenshots at the bottom. Audio trailer: https://www.youtube.com/watch?v=6thfiGb-b7c
 
-See screenshots at the bottom.
-
-The code for the Secret Republic hacker simulation role playing game.
-
-Futuristic UI. Mission designer. Audio AI voice speaks when interacting with the game.
+The code for the Secret Republic hacker simulation role playing browser text game.
 
 A lot of work has gone into this but it (and more in its previous version) is not a documented (as of yet) project.
 
@@ -20,6 +15,15 @@ However, the project on stand-by so I've decided to make the source available of
 
 Read more about the history of the game and the more complete older version in the works for open sourcing @ https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futuristic-rpg-browser-based-game-php-843d393cb9d7
 
+# Main Features
+
+1 Audio AI (woman, same as trailer) voice speaks when interacting with the game
+1 Futuristic bootstrap based UI, mobile ready, made to feel like an app
+1 Point and click based missions with servers of multiple types (file servers, email and database)
+1 In-game Mission designer with BBCode like syntax features
+1 Upgradable knowledge & skills
+1 Rewards system
+
 # SecretAlpha V3 ( MORE FEATURES! )
 
 I probably recommend you try to run both versions or at least check out both repositories. V3 is much older, less organized or respecting any patterns what-so-ever code, mostly written from scratch but I've refactored some dependency management into it.
@@ -28,7 +32,7 @@ https://github.com/nenuadrian/Secret-Republic-Hacking-Browser-Game-V3
 
 # Setting up
 
-You need a webserver able to run PHP and an MySQL database (LAMP). 
+You need a webserver able to run PHP and an MySQL database (LAMP).
 
 1. Install MAMP (https://www.mamp.info/en/) for windows or WAMP (http://www.wampserver.com/en/) for Mac to get them out of the box.
 
