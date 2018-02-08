@@ -18,11 +18,16 @@ Read more about the history of the game and the more complete older version in t
 # Main Features
 
 1 Audio AI (woman, same as trailer) voice speaks when interacting with the game
-1 Futuristic bootstrap based UI, mobile ready, made to feel like an app
-1 Point and click based missions with servers of multiple types (file servers, email and database)
-1 In-game Mission designer with BBCode like syntax features
-1 Upgradable knowledge & skills
-1 Rewards system
+
+2 Futuristic bootstrap based UI, mobile ready, made to feel like an app
+
+3 Point and click based missions with servers of multiple types (file servers, email and database)
+
+4 In-game Mission designer with BBCode like syntax features
+
+5 Upgradable knowledge & skills
+
+6 Rewards system
 
 # SecretAlpha V3 ( MORE FEATURES! )
 
