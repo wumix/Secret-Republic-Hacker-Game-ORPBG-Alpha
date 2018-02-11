@@ -3,6 +3,8 @@
 
 ![Cover](images/cover.jpg)
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
 See screenshots at the bottom. Audio trailer: https://www.youtube.com/watch?v=6thfiGb-b7c
 
 The code for the Secret Republic hacker simulation role playing browser text game.
@@ -111,6 +113,6 @@ https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futu
 
 # License
 
-This initial version was created by [Adrian Nenu] (https://github.com/nenuadrian) under [CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
 Please link and contribute back to this repository if using the code or assets :)
