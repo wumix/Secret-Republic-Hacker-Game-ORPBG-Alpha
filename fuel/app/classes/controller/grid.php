@@ -36,12 +36,11 @@ class Controller_Grid extends Controller {
 
 	public function action_index() {
     $tVars = array();
-    $nodes = array();
 
     $currentZone = 1;
     $currentCluster = 1;
 
-    $nodes = DB::select()->from('node')->where('zone', $currentZone)->where('cluster', $currentCluster)->execute()->as_array('node_id');
+    $nodes = DB::select()->from('node')->where('zone', $currentZone)->where('cluster', $currentCluster)->execute();
 
     for ($i = 1; $i <= 10; $i++) {
       if (!isset($nodes[$i])) {
