@@ -27,7 +27,7 @@ return array(
 		/**
 		 * Mail driver (mail, smtp, sendmail, noop)
 		 */
-		'driver' => 'smtp',
+		'driver' => 'sendmail',
 
 		/**
 		 * Whether to send as html, set to null for autodetection.
@@ -59,7 +59,7 @@ return array(
 		 * Default sender details
 		 */
 		'from' => array(
-			'email' => 'do-not-reply@secretrepublic.net',
+			'email' => 'do-not-reply@secretrepublic.esy.es',
 			'name'  => 'Secret Republic of Hackers',
 		),
 
@@ -97,7 +97,7 @@ return array(
 		 * SMTP settings
 		 */
 		'smtp' => array(
-			'host'     => '',
+			'host'     => 'smtp.gmail.com',
 			'port'     => 587,
 			'username' => '',
 			'password' => '',
