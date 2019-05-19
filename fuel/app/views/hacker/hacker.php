@@ -9,12 +9,12 @@ echo View::forge('global/header'); ?>
   <?php endif; ?>
 </h1>
 <h4 class="text-center">LEVEL <?php echo $hacker['level']; ?></h4>
-<h5 class="text-center">ranked #<?php echo number_format($hacker['ranking']); ?></h5><br/><br/>
+<h5 class="text-center">Platzierung #<?php echo number_format($hacker['ranking']); ?></h5><br/><br/>
 
 <br/><br/>
 <div class="row">
 <div class="col-md-12">
-  <h2 class="text-center">achievements</h2>
+  <h2 class="text-center">Erfolge</h2>
 <Br/>
 <div class="row">
 <?php foreach(Achievements::$achievements as $id => $a): if(!isset($hacker['achievements'][$id])) continue; $has = true; ?>
@@ -31,7 +31,7 @@ echo View::forge('global/header'); ?>
 <?php endforeach; ?>
 <?php if (!isset($has)): ?>
   <div class="well text-center">
-  <?php echo $hacker['username']; ?> does not have any achievement :(.
+  <?php echo $hacker['username']; ?> Hat keine Erfolge :(.
 </div>
 <?php endif; ?>
 </div>

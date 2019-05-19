@@ -10,7 +10,7 @@
         </div>
       <?php endforeach; ?>
     </div>
-    <button type="submit" class="btn btn-block">update</button>
+    <button type="submit" class="btn btn-block">Aktualisieren</button>
   </form>
 </div>
 

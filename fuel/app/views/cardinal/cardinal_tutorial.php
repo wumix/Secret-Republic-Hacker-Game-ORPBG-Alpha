@@ -16,8 +16,8 @@
 					</div>
 				</div>
 			<textarea name="completion_conditions" class="form-control" ><?php echo $step['completion_conditions']; ?></textarea>
-			<textarea name="story" class="form-control" placeholder="Story"><?php echo $step['story']; ?></textarea>
-			<button type="submit" class="btn btn-default" name="update" value="<?php echo $step['step_id']; ?>">update</button>
+			<textarea name="story" class="form-control" placeholder="Geschichte"><?php echo $step['story']; ?></textarea>
+			<button type="submit" class="btn btn-default" name="update" value="<?php echo $step['step_id']; ?>">Aktualisieren</button>
 			</form>
 		</div>
 		<br/>

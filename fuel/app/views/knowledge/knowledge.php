@@ -34,8 +34,8 @@ use \Model\Skills;
 			</ul>
 			<nav>
 				<ul class="navigation">
-					<li><a href="#0" class="prev">Prev</a></li>
-					<li><a href="#0" class="next">Next</a></li>
+					<li><a href="#0" class="prev">Zurück</a></li>
+					<li><a href="#0" class="next">Weiter</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -51,27 +51,27 @@ use \Model\Skills;
                 <?php echo $k['description']; ?>
               </div>-->
               <?php if ($uk['requires']['fulfilled']): ?>
-                <a href="<?php echo Uri::create('knowledge/learn/' . $k_id); ?>">learn</a>
+                <a href="<?php echo Uri::create('knowledge/learn/' . $k_id); ?>">Lernen</a>
               <?php else: ?>
                 <div class="alert alert-danger">
-                  Requirements have not been fulfilled
+                  Anforderungen wurden nicht erfüllt
                 </div>
               <?php endif; ?>
               <?php $level = $uk['level']; ?>
-              <h3><?php if ($level): ?>Level <?php echo $level; ?><?php else: ?>not learnt<?php endif; ?></h3>
-              <h3> <strong>with the next level</strong></h3>
+              <h3><?php if ($level): ?>Level <?php echo $level; ?><?php else: ?>nicht gelernt<?php endif; ?></h3>
+              <h3> <strong>mit dem nächsten Level</strong></h3>
               <?php foreach ($uk['skills'] as $skill_id => $p): ?>
                 <p><?php echo $p; ?> <em><?php echo Skills::skills()[$skill_id]['name']; ?></em> points</p>
               <?php endforeach; ?>
-              <h3><strong>requirements for next level</strong></h3>
+              <h3><strong>Anforderungen für das nächste Level</strong></h3>
               <?php if (isset($uk['requires']['level'])): ?>
-                <p>Hacker level <?php echo $uk['requires']['level']; ?></p>
+                <p>Hacker Level <?php echo $uk['requires']['level']; ?></p>
               <?php endif; ?>
               <?php if (isset($uk['requires']['money'])): ?>
                 <p><i class="fa fa-cube"></i> <?php echo $uk['requires']['money']; ?></p>
               <?php endif; ?>
               <?php foreach($uk['requires']['knows'] as $r_k_id => $r): ?>
-                <p><?php echo $knowledge[$r_k_id]['name']; ?> at level <?php echo $r['level']; ?> [<?php echo $r['fulfilled'] ? 'yes' : 'no'; ?>]</p>
+                <p><?php echo $knowledge[$r_k_id]['name']; ?> ab Level <?php echo $r['level']; ?> [<?php echo $r['fulfilled'] ? 'yes' : 'no'; ?>]</p>
               <?php endforeach; ?>
             </div>
           </div>

@@ -25,11 +25,11 @@
 			    <input type="text" class="form-control text-center" placeholder="nickname" name="username" autocapitalize="off" autocorrect="off" required maxlength="30" />
 			  </div>
         <div class="col-sm-6">
-          <input type="password" class="form-control text-center" placeholder="password" name="password"  required  maxlength="30" />
+          <input type="password" class="form-control text-center" placeholder="passwort" name="password"  required  maxlength="30" />
         </div>
       </div>
-			<button class="btn btn-block btn-default" type="submit" style="margin-top:20px" name="connect" value="true">connect</button>
-      <a class="btn btn-block btn-sm" href="<?php echo Uri::create('welcome/forgot'); ?>">forgot?</a>
+			<button class="btn btn-block btn-default" type="submit" style="margin-top:20px" name="connect" value="true">Verbinden</button>
+      <a class="btn btn-block btn-sm" href="<?php echo Uri::create('welcome/forgot'); ?>">vergessen?</a>
 		</form>
     <br/><br/>
     <?php echo Input::post('register') ? View::forge('components/messages') : ''; ?>
@@ -39,15 +39,15 @@
 					<input type="text" class="form-control text-center" placeholder="nickname" name="username" required value="<?php echo Input::post('username', ''); ?>" autocapitalize="off" autocorrect="off" maxlength="30" />
 				</div>
 				<div class="col-xs-6">
-					<input type="password" class="form-control text-center" placeholder="password" name="password" required value="<?php echo Input::post('password', ''); ?>" maxlength="30" />
+					<input type="password" class="form-control text-center" placeholder="passwort" name="password" required value="<?php echo Input::post('password', ''); ?>" maxlength="30" />
 				</div>
 			</div>
-			<input type="email" class="form-control text-center" placeholder="email (bonus on confirm)" name="email" required value="<?php echo Input::post('email', ''); ?>" autocapitalize="off" autocorrect="off" maxlength="255" />
+			<input type="email" class="form-control text-center" placeholder="email (Bonus bei Bestätigung)" name="email" required value="<?php echo Input::post('email', ''); ?>" autocapitalize="off" autocorrect="off" maxlength="255" />
 			<br/>
 			<p>
 			I fully agree with the <a href="<?php echo Uri::create('pages/view/terms-of-service'); ?>">terms of service</a> && <a href="<?php echo Uri::create('pages/view/privacy-policy'); ?>">privacy policy</a> and would like to
 			</p>
-			<button class="btn btn-block btn-default" type="submit" style="margin-top:20px" name="register" value="true">obtain citizenship</button>
+			<button class="btn btn-block btn-default" type="submit" style="margin-top:20px" name="register" value="true">Mitglied Werden</button>
 		</form>
 
       <?php /* $detect = new Mobile_Detect;

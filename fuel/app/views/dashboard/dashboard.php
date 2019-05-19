@@ -19,7 +19,7 @@ echo View::forge('global/header'); ?>
 		'id' => 'exp_container'
 		)); ?>
 
-	<a href="<?php echo Uri::create('world'); ?>" class="btn">world</a>
+	<a href="<?php echo Uri::create('world'); ?>" class="btn">Welt</a>
 	</div>
 	</div>
 
@@ -34,7 +34,7 @@ echo View::forge('global/header'); ?>
 	<?php endforeach; ?>
 	</div>
 	<div class="col-md-6">
-		<h3 class="text-right">hackery quote</h3>
+		<h3 class="text-right">Hacker-Zitat</h3>
 		<blockquote>
 			<?php echo $quote['content']; ?>
 			<?php if ($quote['author']): ?>

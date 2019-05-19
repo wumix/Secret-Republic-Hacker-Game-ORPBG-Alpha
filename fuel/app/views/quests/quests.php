@@ -4,8 +4,8 @@
 
 <div class="container">
 	<div class="alert alert-warning text-center">
-		<p>Only the Computer Science set is currently live. Let us know what you think and we'll make more available.</p>
-		We will let you know when new content becomes available!
+		<p>Derzeit ist nur das Informatikset Online. Teile uns Deine Meinung mit und wir versuchen mehr verfügbar zu machen.</p>
+	       Wir informieren Dich, wenn neue Inhalte verfügbar sind!
 	</div>
 	<div class="row">
 		<?php foreach($groups as $g): ?>

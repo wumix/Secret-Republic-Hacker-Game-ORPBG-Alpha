@@ -1,9 +1,9 @@
 <?php echo View::forge('emails/email-header'); ?>
 <div style="text-align:center">
-<p>Welcome, <?php echo $USERNAME; ?>, to the Secret Republic of Hackers.</p>
-<p>Get started with your first Computer Science missions which our School has prepared to leave you with the most basic hacking skills.</p>
-<p>You will have to discover the rest on your very own!</p>
-<p><strong>And remember that without the fear of our enemies, our bravery is meaningless.</strong></p>
-<p><em>The team</em></p>
+<p>Willkommen <?php echo $USERNAME; ?>, zur geheimen Republik der Hacker.</p>
+<p>Beginne mit Deinen ersten IT-Missionen, an denen unsere Schule Dir die grundlegendsten Hackerfähigkeiten beigebracht hat.</p>
+<p>Du musst den Rest auf eigene Faust entdecken und kennen lernen!</p>
+<p><strong>Und denke daran, dass unsere Tapferkeit ohne die Angst vor unseren Feinden bedeutungslos ist.</strong></p>
+<p><em>Dein S-R Team</em></p>
 </div>
 <?php echo View::forge('emails/email-footer'); ?>

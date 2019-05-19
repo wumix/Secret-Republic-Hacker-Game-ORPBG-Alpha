@@ -3,8 +3,8 @@
 
 <div class="container">
   <div class="alert alert-info text-center">
-    <p>The world state reset in late 2016.</p>
-    The previous version of the competition ran from 2012 to 2016 with over 13k participants.
+    <p>Der Weltstaat wurde Ende 2016 zurückgesetzt.</p>
+    Die vorherige Version des Wettbewerbs lief von 2012 bis 2016 mit über 13.000 Teilnehmern.
   </div>
   <div class="row text-center">
     <?php foreach ($data as $d): ?>

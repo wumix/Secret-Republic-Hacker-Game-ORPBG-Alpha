@@ -26,16 +26,16 @@
         </div>
         <div class="col-md-4">
           <label>title</label>
-        <input type="text" name="title" class="form-control" value="<?php echo $e['title']; ?>" placeholder="Name/Subject"/>
+        <input type="text" name="title" class="form-control" value="<?php echo $e['title']; ?>" placeholder="Name/Betreff"/>
         </div>
         <div class="col-md-3">
           <label>security</label>
-        <input type="number" name="security" class="form-control" value="<?php echo $e['security']; ?>" placeholder="Security" />
+        <input type="number" name="security" class="form-control" value="<?php echo $e['security']; ?>" placeholder="Sicherheit" />
         </div>
         <?php if ($service['type'] == 1): ?>
           <div class="col-xs-2">
             <label>password</label>
-          <input type="number" name="password" class="form-control" value="<?php echo $e['password']; ?>" placeholder="Password" />
+          <input type="number" name="password" class="form-control" value="<?php echo $e['password']; ?>" placeholder="Passwort" />
           </div>
         <?php endif; ?>
         <div class="col-xs-3">
